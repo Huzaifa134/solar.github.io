@@ -7,7 +7,7 @@
 }
 
 .btn {
-  background-color: #5c9f24;
+  background-color: #068f33;
   border-radius: 30px;
   padding: 10px 20px;
   font-size: 20px;
@@ -23,7 +23,7 @@
 }
 
 /* gallery  */
-.gallery1 {
+/* .gallery1 {
   display: flex;
   justify-content: center;
   align-content: space-between;
@@ -38,4 +38,31 @@
   background: url(../img/portfolio/portfolio-1.jpg) no-repeat center
     center/cover;
   margin-bottom: 10px;
+} */
+
+.header-parent {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-top: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.image-head,
+.text-content {
+  /* width: 50%; */
+  height: 500px;
+}
+.text-content {
+  width: 500px;
+  line-height: 3;
+  /* margin-left: 30px; */
+}
+.image-head {
+  width: 700px;
+  background: url(../img/portfolio/portfolio-1.jpg) no-repeat center
+    center/cover;
+}
+.solar-head {
+  margin-top: 200px;
 }
