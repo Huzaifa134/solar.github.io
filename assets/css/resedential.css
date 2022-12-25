@@ -1,0 +1,41 @@
+.text {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 200px;
+  line-height: 3;
+}
+
+.btn {
+  background-color: #5c9f24;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+.btn:focus {
+  height: 50px;
+  width: 100px;
+}
+
+/* gallery  */
+.gallery1 {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 100px auto;
+  gap: 50px;
+}
+.box1 {
+  height: 200px;
+  width: 200px;
+  background: url(../img/portfolio/portfolio-1.jpg) no-repeat center
+    center/cover;
+  margin-bottom: 10px;
+}
