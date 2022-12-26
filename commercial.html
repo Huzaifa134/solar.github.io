@@ -106,7 +106,7 @@
           data-bs-target="#exampleModal"
           data-bs-whatever="@mdo"
         >
-          Get started
+          Get started Saving
         </button>
 
         <div
@@ -120,7 +120,8 @@
             <div class="modal-content">
               <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel">
-                  New message
+                  Fill Out the Form
+
                 </h1>
                 <button
                   type="button"
@@ -132,33 +133,36 @@
               <div class="modal-body">
                 <form>
                   <div class="mb-3">
-                    <label for="recipient-name" class="col-form-label"
+                    <!-- <label for="recipient-name" class="col-form-label"
                       >Recipient:</label
-                    >
+                    > -->
                     <input
                       type="text"
                       class="form-control"
                       id="recipient-name"
+                      placeholder="Full Name*"
                     />
                   </div>
                   <div class="mb-3">
-                    <label for="message-text" class="col-form-label"
+                    <!-- <label for="message-text" class="col-form-label"
                       >Message:</label
-                    >
-                    <textarea class="form-control" id="message-text"></textarea>
+                    > -->
+                    <input type="email"  class="form-control" name="email" id="email" placeholder="Enter a valid Email address*">
+                    <!-- <textarea class="form-control" id="message-text"></textarea> -->
+                  </div>
+                  <div class="mb-3">
+                    
+                    <textarea class="form-control" id="message-text" placeholder="Message"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <input type="file" name="file" id="file">
                   </div>
                 </form>
               </div>
               <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                >
-                  Close
-                </button>
+                
                 <button type="button" class="btn btn-primary">
-                  Send message
+                  Submit
                 </button>
               </div>
             </div>
@@ -173,7 +177,7 @@
     <section id="pricing" class="pricing mt-5">
       <div class="container">
         <div class="section-title">
-          <h2 class="mt-5">Custom Quote</h2>
+          <h2 class="mt-5">3 Simple Steps to Lower Rates</h2>
           <p>
             Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
             aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
@@ -182,10 +186,42 @@
           </p>
         </div>
 
-        <div class="row">
+        <!-- custom card  -->
+        
+      <div class="three-card card-3">
+
+      
+        <div class="card card1" style="width: 18rem;">
+          <img src="./assets/img/slide/form img.png" class="card-img-top" alt="logo 1">
+          <div class="card-body">
+            <h5 class="card-title">LOA or Copy of Your Bill</h5>
+            <p class="card-text">
+              The letter of authorization gives a Savant Energy, energy advisor the ability to pull the historical usage from the past 12 months at no obligation to the customer. Alternatively you can send us a copy of your current bill below. This data is necessary to analyze one's power consumption patterns and to develop an energy strategy that is customized to the needs of their business.</p>
+            <!-- <a href="https://www.trieagleenergy.com/TX/Residential/Default?webcode=Savant4" target="_blank" class="btn btn-primary">Sign Up</a> -->
+          </div>
+        </div>
+        <div class="card card1" style="width: 18rem;">
+          <img src="./assets/img/slide/form img.png" class="card-img-top" alt="logo 2">
+          <div class="card-body">
+            <h5 class="card-title">
+              Energy Analysis</h5>
+            <p class="card-text">Once we receive your historical usage information, Savant Energy Services learns all we can about the way your facility uses electricity. We conduct an in-depth review and analysis of your usage pattern to develop an energy strategy that meets your operation's requirements.</p>
+            <!-- <a href="https://www.constellation.com/solutions/for-your-home/residential-signup.html?zip=&promoCode=savant" target="_blank" class="btn btn-primary">Sign Up</a> -->
+          </div>
+        </div>
+        <div class="card card1" style="width: 18rem;">
+          <img src="./assets/img/slide/form img.png" class="card-img-top" alt="logo 3">
+          <div class="card-body">
+            <h5 class="card-title">Energy Proposal</h5>
+            <p class="card-text">The last step is the proposal. Once an agreement is structured to meet your needs, we then will facilitate a seamless switch from your current energy supplier to your new energy supplier. Our objective is the same as yours - to obtain the most economical supply arrangement available.</p>
+            <!-- <a href="https://www.summerenergy.com/Signup?promocode=Savant" target="_blank" class="btn btn-primary">Sign Up</a> -->
+          </div>
+        </div>
+      </div>
+        <!-- <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="box">
-              <h3>Free</h3>
+              <h3>Send us an LOA or Your Current Bill/Energy Rate</h3>
               <h4><sup>$</sup>0<span> / month</span></h4>
               <ul>
                 <li>Aida dere</li>
@@ -248,7 +284,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- End Pricing Section -->
