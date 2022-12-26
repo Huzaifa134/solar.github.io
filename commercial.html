@@ -51,7 +51,7 @@
 
   </head>
   <body>
-    <header id="header" class="fixed-top d-flex align-items-center mb-5">
+    <header id="header" class="fixed-top d-flex align-items-center mb-5"style="background: #333">
       <div class="container d-flex align-items-center justify-content-between">
         <h1 class="logo">
           <a href="index.html"><i class="fa-brands fa-slack"></i></a>
@@ -79,11 +79,7 @@
             <li>
               <a class="nav-link scrollto" href="./contact.html">Contact</a>
             </li>
-            <li>
-              <a class="getstarted scrollto" href="./contact.html"
-                >Get Started</a
-              >
-            </li>
+            
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -118,6 +114,7 @@
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
+          
         >
           <div class="modal-dialog">
             <div class="modal-content">
@@ -144,13 +141,14 @@
                       class="form-control"
                       id="recipient-name"
                       placeholder="Full Name*"
+                      required
                     />
                   </div>
                   <div class="mb-3">
                     <!-- <label for="message-text" class="col-form-label"
                       >Message:</label
                     > -->
-                    <input type="email"  class="form-control" name="email" id="email" placeholder="Enter a valid Email address*">
+                    <input type="email"  class="form-control" name="email" id="email" placeholder="Enter a valid Email address*" required>
                     <!-- <textarea class="form-control" id="message-text"></textarea> -->
                   </div>
                   <div class="mb-3">
@@ -158,16 +156,23 @@
                     <textarea class="form-control" id="message-text" placeholder="Message"></textarea>
                   </div>
                   <div class="mb-3">
-                    <input type="file" name="file" id="file">
+                    <input type="file" name="file" id="file" required>
+                  </div>
+                  <div class="modal-footer">
+                    
+                    <input type="submit" value="submit" style="background: #068f33;padding: 10px 20px;border: none;border-radius: 20px;">
+                    <!-- <button type="button" class="btn btn-primary">
+                      Submit Form
+                    </button> -->
                   </div>
                 </form>
               </div>
-              <div class="modal-footer">
+              <!-- <div class="modal-footer">
                 
                 <button type="button" class="btn btn-primary">
                   Submit
                 </button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -181,7 +186,7 @@
       <div class="container">
         <div class="section-title">
           <h2 class="mt-5" data-aos="fade-left">3 Simple Steps to Lower Rates</h2>
-          <p>
+          <p style="text-align: justify;">
             Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
             aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
             quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
@@ -194,7 +199,7 @@
       <div class="three-card card-3">
 
       
-        <div class="card card1" style="width: 18rem;"data-aos="fade-right">
+        <div class="card card1" style="width: 18rem;"data-aos="fade-right" style="text-align: justify;">
           <img src="./assets/img/slide/form img.png" class="card-img-top" alt="logo 1">
           <div class="card-body">
             <h5 class="card-title">LOA or Copy of Your Bill</h5>

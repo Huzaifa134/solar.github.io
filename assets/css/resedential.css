@@ -1,67 +1,88 @@
 .text {
   text-align: center;
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
-  margin-top: 200px;
-  line-height: 3;
+  margin-top: 100px;
+  line-height: 2;
+  text-align: left;
 }
-
+.text h1 {
+  font-size: 50px;
+}
 .btn {
   background-color: #068f33;
   border-radius: 30px;
   padding: 10px 20px;
   font-size: 20px;
   color: #fff;
+  border: none !important;
 }
 .btn:hover {
   background-color: #333;
   color: #fff;
+  border: none !important;
 }
 .btn:focus {
   height: 50px;
-  width: 100px;
+  width: 250px !important;
+  border: none !important;
 }
-
-/* gallery  */
-/* .gallery1 {
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-  flex-wrap: wrap;
-  width: 70%;
-  margin: 100px auto;
-  gap: 50px;
-}
-.box1 {
-  height: 200px;
-  width: 200px;
-  background: url(../img/portfolio/portfolio-1.jpg) no-repeat center
-    center/cover;
-  margin-bottom: 10px;
-} */
 
 .header-parent {
   display: flex;
-  width: 90%;
+  max-width: 90%;
   justify-content: space-between;
   margin-top: 100px;
   align-items: center;
   flex-wrap: wrap;
 }
-.image-head,
+
 .text-content {
-  /* width: 50%; */
-  height: 500px;
+  max-width: 55%;
+  line-height: 2;
+  /* height: 500px; */
 }
-.text-content {
-  width: 500px;
-  line-height: 3;
-  /* margin-left: 30px; */
+.text-content h3 {
+  font-size: 40px;
 }
+
 .image-head {
-  width: 700px;
+  width: 40%;
+  height: 500px;
+  /* width: 600px; */
   background: url(../img/portfolio/portfolio-1.jpg) no-repeat center
     center/cover;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1145px) {
+  .header-parent {
+    justify-content: center;
+    max-width: 100%;
+  }
+  .image-head {
+    width: 50%;
+    margin-right: 10px;
+  }
+  .text-content {
+    width: 40%;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 970px) {
+  .header-parent {
+    justify-content: center;
+    max-width: 100%;
+  }
+  .image-head {
+    width: 90%;
+    /* margin-right: 10px; */
+  }
+  .text-content {
+    width: 100%;
+    max-width: 90%;
+    text-align: left;
+  }
 }
 .solar-head {
   margin-top: 200px;
@@ -191,4 +212,22 @@
 .btn-1:focus {
   height: 50px;
   width: 240px;
+}
+
+@media screen and (max-width: 762px) {
+  .margin-top {
+    margin-top: 200px !important;
+    padding-top: 10px !important;
+  }
+  .margin-topp {
+    margin-top: -150px !important;
+  }
+  .margin-bottom {
+    margin-bottom: 100px !important;
+  }
+}
+@media screen and (max-width: 942px) {
+  .margin-top {
+    padding-top: 10px !important;
+  }
 }

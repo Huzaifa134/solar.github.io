@@ -64,7 +64,7 @@
 
   <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center mb-5">
+    <header id="header" class="fixed-top d-flex align-items-center mb-5"style="background: #333">
       <div class="container d-flex align-items-center justify-content-between">
         <h1 class="logo">
           <a href="index.html"><i class="fa-brands fa-slack"></i></a>
@@ -92,11 +92,7 @@
             <li>
               <a class="nav-link scrollto" href="./contact.html">Contact</a>
             </li>
-            <li>
-              <a class="getstarted scrollto" href="./contact.html"
-                >Get Started</a
-              >
-            </li>
+           
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -176,15 +172,16 @@
                       class="form-control"
                       id="recipient-name"
                       placeholder="Name"
+                      required
                     />
                   </div>
                   <div class="mb-3">
                     
-                    <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
                   </div>
                   <div class="mb-3">
                   
-                    <input type="number" name="no" id="no" class="form-control" placeholder="Phone">
+                    <input type="number" name="no" id="no" class="form-control" placeholder="Phone" required>
                   </div>
                   <div class="mb-3">
                     
@@ -193,16 +190,18 @@
                   <div class="mb-3">
                     
                     
-                    <input type="file" name="file" id="file" class="form-control" >
+                    <input type="file" name="file" id="file" class="form-control" required >
+                  </div>
+                  <div class="modal-footer">
+                    
+                    <input type="submit" value="submit" style="background: #068f33;padding: 10px 20px;border: none;border-radius: 20px;">
+                    <!-- <button type="button" class="btn btn-primary">
+                      Submit Form
+                    </button> -->
                   </div>
                 </form>
               </div>
-              <div class="modal-footer">
               
-                <button type="button" class="btn btn-primary">
-                  Submit Form
-                </button>
-              </div>
             </div>
           </div>
         </div>
@@ -228,7 +227,7 @@
     <!-- about section  -->
 <div class="about-sec ">
   <h3 data-aos="fade-right ">Energy Brokers Help You Save on Energy & Gas Rates</h3>
-  <p data-aos="fade-left">Rather than adding costs, a “third party broker” drives down the overall price by introducing multiple levels of competition into the transaction.  Additionally, since there is not a “standard offer” contract or product in the marketplace, members of the Aggregator, Broker, and Consulting (ABC) community also serve to normalize pricing, making sure that consumers are not misled by rates that may be convoluted or difficult to interpret.
+  <p data-aos="fade-left" style="text-align: justify;">Rather than adding costs, a “third party broker” drives down the overall price by introducing multiple levels of competition into the transaction.  Additionally, since there is not a “standard offer” contract or product in the marketplace, members of the Aggregator, Broker, and Consulting (ABC) community also serve to normalize pricing, making sure that consumers are not misled by rates that may be convoluted or difficult to interpret.
     
     There is no algorithm, program or software that can take in to account all of the factors of an evolving and highly complex market.  The education, experience and industry knowledge needed to navigate the complexities of the procurement process can be best achieved by working with industry professionals.</p>
 
@@ -274,15 +273,16 @@
                   class="form-control"
                   id="recipient-name"
                   placeholder="Name"
+                  required
                 />
               </div>
               <div class="mb-3">
                 
-                <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
               </div>
               <div class="mb-3">
               
-                <input type="number" name="no" id="no" class="form-control" placeholder="Phone">
+                <input type="number" name="no" id="no" class="form-control" placeholder="Phone" required>
               </div>
               <div class="mb-3">
                 
@@ -291,16 +291,18 @@
               <div class="mb-3">
                 
                 
-                <input type="file" name="file" id="file" class="form-control" >
+                <input type="file" name="file" id="file" class="form-control" required>
+              </div>
+              <div class="modal-footer">
+                <input type="submit" value="submit" style="background: #068f33;padding: 10px 20px;border: none;border-radius: 20px;">
+
+                <!-- <button type="button" class="btn btn-primary">
+                  Submit Form
+                </button> -->
               </div>
             </form>
           </div>
-          <div class="modal-footer">
           
-            <button type="button" class="btn btn-primary">
-              Submit Form
-            </button>
-          </div>
         </div>
       </div>
     </div>
@@ -373,12 +375,12 @@
       <section
         id="services"
         class="services"
-        style="background:linear-gradient(rgba(46, 69, 82,0.8),rgba(46, 69, 82,0.8)), url(./assets/img/slide/solar\ sub\ sec.jpg) no-repeat center center/cover ; margin: 200px 0; color: #000000"
+        style="background:linear-gradient(rgba(46, 69, 82,0.8),rgba(46, 69, 82,0.8)), url(./assets/img/slide/solar\ sub\ sec.jpg) no-repeat center center/cover ; margin: 50px 0; color: #000000"
       >
         <div class="container">
           <div class="section-title">
             <h2 data-aos="fade-right">What We Offer</h2>
-            <p data-aos="fade-left">
+            <p data-aos="fade-left"  style="text-align: justify;">
               Magnam dolores commodi suscipit. Necessitatibus eius consequatur
               ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
               quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
@@ -422,38 +424,7 @@
                 aliquip ex ea commodo consequat tarad limino ata
               </p>
             </div>
-            <!-- <div class="col-lg-4 col-md-6 icon-box">
-              <div class="icon"><i class="bi bi-bar-chart"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur
-              </p>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box">
-              <div class="icon"><i class="bi bi-binoculars"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum
-              </p>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box">
-              <div class="icon"><i class="bi bi-brightness-high"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque
-              </p>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box">
-              <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">
-                Et harum quidem rerum facilis est et expedita distinctio. Nam
-                libero tempore, cum soluta nobis est eligendi
-              </p>
-            </div> -->
+            
           </div>
         </div>
       </section>
@@ -464,7 +435,7 @@
         id="carouselExampleControls"
         class="carousel slide text-center carousel-dark container custom-textimonial"
         data-mdb-ride="carousel"
-        style="margin-bottom: 200px"
+        style="margin-bottom: 100px"
       >
         <div class="carousel-inner">
           <h2
