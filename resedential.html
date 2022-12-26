@@ -45,6 +45,8 @@
     />
     <!-- custom  -->
     <link rel="stylesheet" href="./assets/css/resedential.css" />
+    <!-- animation library  -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
   </head>
   <body>
     <header id="header" class="fixed-top d-flex align-items-center mb-5">
@@ -85,7 +87,8 @@
       </div>
     </header>
     <!-- gallery  -->
-    <div class="text">
+    
+    <div class="text"  >
       <h1>Residential Energy</h1>
       <p>
         When living in Texas you have the power to choose your electric
@@ -168,10 +171,10 @@
     <!-- card -->
 
     <div class="header-parent container">
-      <div class="image-head">
+      <div class="image-head" data-aos="fade-right">
         <!-- <img src="./assets/img/portfolio/portfolio-1.jpg" alt="image" /> -->
       </div>
-      <div class="text-content">
+      <div class="text-content" data-aos="fade-left">
         <h3>Resedential</h3>
         <p>
           Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
@@ -270,7 +273,7 @@
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing mt-5">
       <div class="container">
-        <div class="section-title">
+        <div class="section-title" data-aos="fade-right">
           <h2 class="mt-5">Custom Quote</h2>
           <p>
             Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
@@ -339,7 +342,7 @@
       <div class="three-card">
 
       
-    <div class="card " style="width: 18rem;">
+    <div class="card " style="width: 18rem;" data-aos="fade-right">
       <img src="./assets/img/slide/logo1.png" class="card-img-top" alt="logo 1">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -347,7 +350,7 @@
         <a href="https://www.trieagleenergy.com/TX/Residential/Default?webcode=Savant4" target="_blank" class="btn btn-primary">Sign Up</a>
       </div>
     </div>
-    <div class="card " style="width: 18rem;">
+    <div class="card " style="width: 18rem;padding-top: 40px;">
       <img src="./assets/img/slide/logo2.jpg" class="card-img-top" alt="logo 2">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -355,7 +358,7 @@
         <a href="https://www.constellation.com/solutions/for-your-home/residential-signup.html?zip=&promoCode=savant" target="_blank" class="btn btn-primary">Sign Up</a>
       </div>
     </div>
-    <div class="card " style="width: 18rem;">
+    <div class="card " style="width: 18rem;padding-top: 17px;" data-aos="fade-left">
       <img src="./assets/img/slide/logo3.png" class="card-img-top" alt="logo 3">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -367,7 +370,7 @@
   <div class="two-child-card">
 
   
-    <div class="card " style="width: 18rem;">
+    <div class="card " style="width: 18rem;" data-aos="fade-right">
       <img src="./assets/img/slide/logo4.png" class="card-img-top" alt="logo 5">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -375,7 +378,7 @@
         <a href="https://www.pulsepowertexas.com/enrollment?&promoCode=savant4" target="_blank" class="btn btn-primary">Sign Up</a>
       </div>
     </div>
-    <div class="card " style="width: 18rem;">
+    <div class="card " style="width: 18rem;" data-aos="fade-left">
       <img src="./assets/img/slide/logo5.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -514,5 +517,10 @@
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"
     ></script>
+    <!-- animation  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

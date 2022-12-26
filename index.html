@@ -52,26 +52,34 @@
     /> -->
     <!-- custom  -->
     <link rel="stylesheet" href="./assets/css/resedential.css" />
+    <!-- animation  -->
+    <!-- <style>
+      @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+  </style> -->
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
   </head>
 
   <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center">
+    <header id="header" class="fixed-top d-flex align-items-center mb-5">
       <div class="container d-flex align-items-center justify-content-between">
         <h1 class="logo">
           <a href="index.html"><i class="fa-brands fa-slack"></i></a>
         </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="./index.html">Home</a></li>
             <li>
               <a class="nav-link scrollto" href="./resedential.html"
                 >Resedential</a
               >
             </li>
             <li>
-              <a class="nav-link scrollto" href="./commercial.html"
+              <a class="nav-link scrollto active" href="./commercial.html"
                 >Commercial</a
               >
             </li>
@@ -83,16 +91,11 @@
               <a class="nav-link scrollto" href="./contact.html">Contact</a>
             </li>
             <li>
-              <!-- modal -->
-
               <a class="getstarted scrollto" href="./contact.html"
                 >Get Started</a
               >
             </li>
           </ul>
-
-          <!-- Modal -->
-
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
         <!-- .navbar -->
@@ -115,10 +118,12 @@
             center/cover;
         padding-top: 10%;
       "
+       
+
     >
-      <div class="custom-text-content container">
-        <h1>Hot Summer Energy Rates? Contact Us to Save</h1>
-        <p>
+      <div class="custom-text-content ">
+        <h1 class="typing">Hot Summer Energy Rates? Contact Us to Save</h1>
+        <p data-aos="fade-right">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
           voluptatum voluptas sint vero itaque vitae perspiciatis autem sit
           voluptatibus? Veritatis saepe illum iure, amet quibusdam ex cumque
@@ -220,8 +225,8 @@
 
     <!-- about section  -->
 <div class="about-sec ">
-  <h3>Energy Brokers Help You Save on Energy & Gas Rates</h3>
-  <p>Rather than adding costs, a “third party broker” drives down the overall price by introducing multiple levels of competition into the transaction.  Additionally, since there is not a “standard offer” contract or product in the marketplace, members of the Aggregator, Broker, and Consulting (ABC) community also serve to normalize pricing, making sure that consumers are not misled by rates that may be convoluted or difficult to interpret.
+  <h3 data-aos="fade-right">Energy Brokers Help You Save on Energy & Gas Rates</h3>
+  <p data-aos="fade-left">Rather than adding costs, a “third party broker” drives down the overall price by introducing multiple levels of competition into the transaction.  Additionally, since there is not a “standard offer” contract or product in the marketplace, members of the Aggregator, Broker, and Consulting (ABC) community also serve to normalize pricing, making sure that consumers are not misled by rates that may be convoluted or difficult to interpret.
     
     There is no algorithm, program or software that can take in to account all of the factors of an evolving and highly complex market.  The education, experience and industry knowledge needed to navigate the complexities of the procurement process can be best achieved by working with industry professionals.</p>
 
@@ -366,12 +371,12 @@
       <section
         id="services"
         class="services"
-        style="background:linear-gradient(rgba(46, 69, 82,0.95),rgba(46, 69, 82,0.95)), url(./assets/img/slide/solar\ sub\ sec.jpg) no-repeat center center/cover ; margin: 200px 0; color: #000000"
+        style="background:linear-gradient(rgba(46, 69, 82,0.8),rgba(46, 69, 82,0.8)), url(./assets/img/slide/solar\ sub\ sec.jpg) no-repeat center center/cover ; margin: 200px 0; color: #000000"
       >
         <div class="container">
           <div class="section-title">
-            <h2>What We Offer</h2>
-            <p>
+            <h2 data-aos="fade-right">What We Offer</h2>
+            <p data-aos="fade-left">
               Magnam dolores commodi suscipit. Necessitatibus eius consequatur
               ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
               quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
@@ -390,6 +395,7 @@
             <div
               class="col-lg-4 col-md-6 icon-box"
               style="border: 1px solid #000000"
+              data-aos="fade-right"
             >
               <div class="icon" style="margin-top: 30px">
                 <i class="bi bi-briefcase"></i>
@@ -403,6 +409,7 @@
             <div
               class="col-lg-4 col-md-6 icon-box"
               style="border: 1px solid #000000"
+              data-aos="fade-left"
             >
               <div class="icon" style="margin-top: 30px">
                 <i class="bi bi-card-checklist"></i>
@@ -453,7 +460,7 @@
       <!-- Carousel wrapper -->
       <div
         id="carouselExampleControls"
-        class="carousel slide text-center carousel-dark"
+        class="carousel slide text-center carousel-dark container custom-textimonial"
         data-mdb-ride="carousel"
         style="margin-bottom: 200px"
       >
@@ -946,11 +953,11 @@
     </footer>
     <!-- End Footer -->
 
-    <a
+    <!-- <a
       href="#"
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    ></a> -->
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -974,5 +981,10 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <!-- animation  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
